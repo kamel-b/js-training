@@ -1,3 +1,4 @@
+
 'use strict'
 
 /*
@@ -16,7 +17,10 @@ const sourceObject = {
 }
 
 // Your code :
-
+const = get (param) => {
+  const value = sourceObject.param
+  return value
+}
 //* Begin of tests
 const assert = require('assert')
 
