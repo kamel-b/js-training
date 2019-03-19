@@ -24,6 +24,9 @@ const multiply = (a,b)=>{
       }
       return result
     }
+    else if(a===0 || b===0){
+      return 0
+    }
    
     else{
      let result = 0
