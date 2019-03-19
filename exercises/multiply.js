@@ -32,7 +32,6 @@ const multiply = (a,b)=>{
       }
     return result
     }
-    
   }
    
 //* Begin of tests
