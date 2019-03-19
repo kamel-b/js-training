@@ -9,7 +9,32 @@
  */
 
 // Your code :
-
+const multiply = (a,b)=>{
+    if(b < 0){
+       let result = 0
+        for(let i=1;i<= -b; i++){
+        result = result + a
+      }
+      return -result
+    }
+    else if(a < 0){
+     let result = 0
+      for(let i=1;i<= b; i++){
+        result = result + a
+      }
+      return result
+    }
+   
+    else{
+     let result = 0
+    for(let i = 1; i<= b;i++){
+      result = result + a
+      }
+    return result
+    }
+    
+  }
+   
 //* Begin of tests
 const assert = require('assert')
 

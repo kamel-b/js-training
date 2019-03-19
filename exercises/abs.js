@@ -10,6 +10,19 @@
  */
 
 // Your code :
+const abs=(nb)=>{
+    if(nb > 0){
+        nb = nb  
+        return nb  
+    }
+    else if(nb < 0){
+        nb = -nb
+        return nb
+    }
+    else{
+      return 0
+    }
+}
 
 //* Begin of tests
 const assert = require('assert')
