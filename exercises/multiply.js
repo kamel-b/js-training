@@ -10,6 +10,7 @@
 
 // Your code :
 const multiply = (a,b)=>{
+    let result = "";
     if(b < 0){
        let result = 0
         for(let i=1;i<= -b; i++){
@@ -24,9 +25,10 @@ const multiply = (a,b)=>{
       }
       return result
     }
-    else if(a===0 || b===0){
+    else if(result === -0 ||result === -0){
       return 0
     }
+    
    
     else{
      let result = 0
