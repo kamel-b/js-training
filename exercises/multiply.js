@@ -33,7 +33,7 @@ const multiply = (a,b)=>{
     return result
     }
   }
-   
+  
 //* Begin of tests
 const assert = require('assert')
 
