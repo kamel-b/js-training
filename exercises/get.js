@@ -16,10 +16,9 @@ const sourceObject = {
   log: console.log,
 }
 
-// Your code :
-const = get (param) => {
-  const value = sourceObject.param
-  return value
+// Your code
+const get = (param)=>{
+  return sourceObject[param]
 }
 //* Begin of tests
 const assert = require('assert')
