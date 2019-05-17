@@ -5,12 +5,8 @@
  * and return an array of each words using space as a delimiter
  *
  */
-const words = (param)=>{
-    let tab = []
-    for(i=0;i<=param.length-1;i++){
-        tab[i]= param[i]
-        return tab
-    }
+const words = (str)=>{
+    return str.split(' ') 
 }
 
 

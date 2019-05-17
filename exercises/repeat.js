@@ -1,5 +1,16 @@
 'use strict'
 
+
+const repeat = (str, nb) => {
+    let result = '';
+    while (nb > 0) {
+        result += str
+        nb--
+    }
+    return result
+}
+
+
 /*
  * Create a `repeat` function that takes a string and a number as parameters
  * and return the repeated string by the given number
